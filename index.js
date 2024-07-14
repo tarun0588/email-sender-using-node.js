@@ -11,7 +11,7 @@ const app = express();
 
 app.get("/send",(req,res)=>{
    const mailOption = {
-    from: "prakhar@gmail.com",
+    from: "tarunsharma@gmail.com",
     to: "do-not-reply@testmail.com",
     subject: "Form",
     html: `
